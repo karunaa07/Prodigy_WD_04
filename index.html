@@ -6,13 +6,13 @@
 
     <!-- SEO Meta Tags -->
     <title>Karuna Kashilkar - Web Developer Portfolio</title>
-    <meta name="description" content="Portfolio of Karuna Kashilkar, a passionate Web Developer skilled in HTML, CSS, JavaScript, React, and Node.js. Explore projects, skills, and contact information.">
-    <meta name="keywords" content="Karuna Kashilkar, Web Developer, HTML, CSS, JavaScript, React, Node.js, Portfolio, Projects">
+    <meta name="description" content="Portfolio of Karuna Kashilkar, a final-year IT student passionate about web development, full-stack projects, and innovative tech solutions. Explore skills, projects, internships, and achievements.">
+    <meta name="keywords" content="Karuna Kashilkar, Web Developer, Full-Stack Developer, React, Node.js, MERN Stack, Portfolio, Projects, Internships">
     <meta name="robots" content="index, follow">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:title" content="Karuna Kashilkar - Web Developer Portfolio">
-    <meta property="og:description" content="Portfolio of Karuna Kashilkar, a passionate Web Developer skilled in HTML, CSS, JavaScript, React, and Node.js. Explore projects, skills, and contact information.">
+    <meta property="og:description" content="Portfolio of Karuna Kashilkar, a final-year IT student passionate about web development, full-stack projects, and innovative tech solutions. Explore skills, projects, internships, and achievements.">
     <meta property="og:image" content="image.png">
     <meta property="og:url" content="http://yourportfolio.com">
     <meta property="og:type" content="website">
@@ -20,7 +20,7 @@
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Karuna Kashilkar - Web Developer Portfolio">
-    <meta name="twitter:description" content="Portfolio of Karuna Kashilkar, a passionate Web Developer skilled in HTML, CSS, JavaScript, React, and Node.js. Explore projects, skills, and contact information.">
+    <meta name="twitter:description" content="Portfolio of Karuna Kashilkar, a final-year IT student passionate about web development, full-stack projects, and innovative tech solutions. Explore skills, projects, internships, and achievements.">
     <meta name="twitter:image" content="image.png">
 
     <!-- Favicon -->
@@ -50,6 +50,12 @@
     gtag('config', 'G-L3L66D0JNH');
     </script>
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -57,83 +63,458 @@
     <!-- Navigation Bar -->
     <header>
         <nav>
-            <div class="logo">Karuna Kashilkar Portfolio</div>
+            <div class="logo">Karuna Kashilkar</div>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
     </header>
 
     <!-- Home Section -->
     <section id="home">
         <div class="home-content">
-            <h1>Hello, I'm <span>Karuna Kashilkar</span> - Web Developer</h1>
-            <p>I'm a passionate Web Developer creating responsive and visually appealing websites using HTML, CSS, JavaScript, React, and Node.js.</p>
-            <a href="#about" class="btn">Learn More About Me</a>
-        </div>
-        <div class="home-image">
-            <img src="image.png" alt="Karuna Kashilkar Web Developer Photo">
+            <h1>Hello, I'm <span>Karuna Kashilkar</span></h1>
+            <p class="typing">Web Developer | Full-Stack Enthusiast | Tech Innovator</p>
+            <p>I'm a final-year Information Technology student who genuinely enjoys learning new things and building meaningful tech. I've always been curious about how things work — whether it's designing user interfaces, exploring full-stack development, or experimenting with new tools.</p>
+            <div class="home-buttons">
+                <a href="#projects" class="btn primary">View My Work</a>
+                <a href="#contact" class="btn secondary">Get In Touch</a>
+            </div>
         </div>
     </section>
 
-    <!-- About Me Section -->
+    <!-- About Section -->
     <section id="about">
-        <h2>About Web Developer Karuna Kashilkar</h2>
-        <div class="about-content">
-            <p>
-                I am a web developer with a strong background in building responsive and visually appealing websites.
-                Currently pursuing Btech in Information Technology, I have experience in HTML, CSS, JavaScript, and modern frameworks like React and Node.js.
-            </p>
-            <p>Check out my <a href="#projects">projects</a> built using these skills.</p>
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a final-year Information Technology student who genuinely enjoys learning new things and building meaningful tech. I've always been curious about how things work — whether it's designing user interfaces, exploring full-stack development, or experimenting with new tools. Being part of hackathons, tech teams, and real-world projects has taught me how to think practically, work with others, and keep growing as a developer.</p>
+                    <p>My soft skills include adaptability, quick learning, critical thinking, and team collaboration. I'm passionate about UI/UX design and have interests in emerging technologies.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>5+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat">
+                        <h3>2</h3>
+                        <p>Internships</p>
+                    </div>
+                    <div class="stat">
+                        <h3>8.16</h3>
+                        <p>CGPA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-grid">
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>B.Tech in Information Technology</h3>
+                        <p class="institution">K. J. Somaiya School of Engineering</p>
+                        <p class="duration">2021 - Present</p>
+                        <p class="grade">CGPA: 8.16</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Higher Secondary Certificate (HSC)</h3>
+                        <p class="institution">Jai Hind College</p>
+                        <p class="duration">2022</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Secondary School Certificate (SSC)</h3>
+                        <p class="institution">I.E.S High School</p>
+                        <p class="duration">2020</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <h2>Experience & Internships</h2>
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-marker"></div>
+                    <div class="experience-content">
+                        <h3>Data Analyst Intern</h3>
+                        <p class="company">Reserve Bank of India (RBI)</p>
+                        <p class="duration">June-July 2024</p>
+                        <ul>
+                            <li>Worked under the Digital Frauds Department to analyze fraud trends from the past 5 years.</li>
+                            <li>Identified patterns in complaint sources and high-risk regions using data-driven methods.</li>
+                            <li>Suggested actionable improvements for fraud detection and reporting processes.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-marker"></div>
+                    <div class="experience-content">
+                        <h3>Full Stack Developer Intern</h3>
+                        <p class="company">Prodigy InfoTech</p>
+                        <p class="duration">December 2024</p>
+                        <ul>
+                            <li>Designed 5+ responsive web page prototypes in Figma, emphasizing user flow and accessibility.</li>
+                            <li>Gained hands-on experience in responsive UI design, routing, state management, and GitHub-based collaboration.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-marker"></div>
+                    <div class="experience-content">
+                        <h3>Robotics Team Member</h3>
+                        <p class="company">Robocon, KJSCE</p>
+                        <p class="duration">3 months</p>
+                        <ul>
+                            <li>Worked as part of the coding team to develop and automate robots for competition.</li>
+                            <li>Programmed Arduino microcontrollers to handle robot navigation and sensor input.</li>
+                            <li>Gained experience in real-time troubleshooting and embedded systems development.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-marker"></div>
+                    <div class="experience-content">
+                        <h3>Team Member</h3>
+                        <p class="company">TMRT, KJSCE</p>
+                        <p class="duration">2 months</p>
+                        <ul>
+                            <li>Contributed to the development and testing of underwater robotic systems.</li>
+                            <li>Assisted in inventory tracking and logistics for hardware components.</li>
+                            <li>Explored emerging tools and languages like Go and Rust while contributing to internal tools and system planning.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Skills Section -->
     <section id="skills">
-        <h2>My Web Development Skills</h2>
-        <div class="skills-list">
-            <div class="skill">HTML</div>
-            <div class="skill">CSS</div>
-            <div class="skill">JavaScript</div>
-            <div class="skill">React</div>
-            <div class="skill">Node.js</div>
-            <div class="skill">Git & GitHub</div>
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item" data-level="90">
+                            <span class="skill-name">React.js (Next.js, Vite)</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="85">
+                            <span class="skill-name">HTML</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="85">
+                            <span class="skill-name">CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="80">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item" data-level="75">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="75">
+                            <span class="skill-name">Express.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="70">
+                            <span class="skill-name">MongoDB</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="70">
+                            <span class="skill-name">Django</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Other Technologies</h3>
+                    <div class="skill-list">
+                        <div class="skill-item" data-level="80">
+                            <span class="skill-name">UI/UX Design (Canva, Figma)</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="75">
+                            <span class="skill-name">Git & GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="70">
+                            <span class="skill-name">Docker & Kubernetes</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="65">
+                            <span class="skill-name">Go, Python, C++, Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects">
-        <h2>Projects by Karuna Kashilkar</h2>
-        <div class="projects-list">
-            <div class="project">
-                <h3>Portfolio Website</h3>
-                <p>A fully responsive portfolio website built with HTML, CSS, and JavaScript.</p>
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop&crop=center" alt="ISWS Global Website">
+                </div>
+                    <div class="project-info">
+                        <h3>ISWS Global – Full Website Design & Development</h3>
+                        <p>Designed and developed a complete website for ISWS Global, now live. Worked directly with the client to understand their brand and vision, then translated it into a clean, modern, and responsive design. Built using HTML, CSS, JavaScript, and PHP. Optimized for SEO.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>PHP</span>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop&crop=center" alt="Full-Stack Job Portal">
+                </div>
+                    <div class="project-info">
+                        <h3>Full-Stack Job Portal Web App</h3>
+                        <p>Developed a complete job portal using the MERN stack to connect job seekers and recruiters. Implemented user authentication with role-based access. Job seekers can search, filter, and apply for jobs; recruiters can post and manage listings.</p>
+                        <div class="project-tech">
+                            <span>MERN Stack</span>
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=250&fit=crop&crop=center" alt="Liveliness Detection System">
+                </div>
+                    <div class="project-info">
+                        <h3>Liveliness Detection System</h3>
+                        <p>Developed a real-time system to differentiate between live users and spoof attacks using OpenCV with CNN-based facial analysis and eye-blink detection. Improved accuracy in low-light and occlusion conditions for secure login systems.</p>
+                        <div class="project-tech">
+                            <span>OpenCV</span>
+                            <span>CNN</span>
+                            <span>Python</span>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400&h=250&fit=crop&crop=center" alt="AR/VR Fashion Experience">
+                </div>
+                    <div class="project-info">
+                        <h3>AR/VR Fashion Experience - WeForShe Hackathon</h3>
+                        <p>Built an immersive AR/VR-based fashion solution for women. Designed virtual try-on features using AR for real-time visualization. Created interactive UI components and integrated 3D models for virtual product displays.</p>
+                        <div class="project-tech">
+                            <span>AR/VR</span>
+                            <span>3D Models</span>
+                            <span>UI/UX</span>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=400&h=250&fit=crop&crop=center" alt="Blockchain-Based Fraud Analytics">
+                </div>
+                    <div class="project-info">
+                        <h3>Blockchain-Based Fraud Analytics Platform (Ongoing)</h3>
+                        <p>Building a blockchain-integrated system using Ethereum and Solidity for transparent fraud analytics. Storing anonymized complaint metadata on-chain for improved traceability and decentralization.</p>
+                        <div class="project-tech">
+                            <span>Ethereum</span>
+                            <span>Solidity</span>
+                            <span>Blockchain</span>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=250&fit=crop&crop=center" alt="Smart India Hackathon Project">
+                </div>
+                    <div class="project-info">
+                        <h3>Productivity & Safety Management App for Coal Mines</h3>
+                        <p>Built an app and web-based software for productivity and safety management of coal mines for Smart India Hackathon. Focused on improving operational efficiency and safety protocols.</p>
+                        <div class="project-tech">
+                            <span>Full-Stack</span>
+                            <span>Web App</span>
+                            <span>Mobile App</span>
+                        </div>
+                        
+                    </div>
+                </div>
             </div>
-            <div class="project">
-                <h3>React Task Manager</h3>
-                <p>A task management app built with React and Node.js for backend.</p>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements">
+        <div class="container">
+            <h2>Achievements & Certifications</h2>
+            <div class="achievements-grid">
+                <div class="achievement-item">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Key Achievements</h3>
+                        <ul>
+                            <li>Developed and deployed full-stack MERN applications independently.</li>
+                            <li>Built an app and web-based software for productivity and safety management of coal mines for Smart India Hackathon.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Certifications</h3>
+                        <ul>
+                            <li>Coursera: React Native, Single Page Web Applications with AngularJS</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Awards & Recognitions</h3>
+                        <ul>
+                            <li>Represented school/college in basketball at inter-state level tournaments.</li>
+                            <li>Awarded Best Player for outstanding performance and sportsmanship in inter-school championships.</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact">
-        <h2>Contact Web Developer Karuna</h2>
-        <form action="#">
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea rows="5" placeholder="Your Message" required></textarea>
-            <button type="submit" class="btn">Send Message</button>
-        </form>
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>kashilkarkaruna@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Mumbai, India</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/karuna-kashilkar" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/karunak" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p>© 2024 Karuna Kashilkar. All Rights Reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Karuna Kashilkar. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
     </footer>
 
     <!-- JS -->
